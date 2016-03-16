@@ -6,6 +6,8 @@ var morgan = require('morgan');
 var mongoose = require('mongoose');
 var app = express();
 var port = 8000;
+console.log('hi');
+
 
 
 app.use(bodyParser.json());
