@@ -1,0 +1,28 @@
+
+.button {
+	color: black;
+	font-family: Times New Roman;
+	background-color: whitesmoke;
+	border-radius: 1px;
+	border: 1px solid black;
+	margin:auto;
+	width: 50px;
+
+
+}
+.hover .button  {
+	color:white;
+}
+
+.input {
+	background-color: #1976D2;
+	color:whitesmoke;
+	text-align: center;
+
+}
+.user {
+	border: 1px solid black;
+	color:whitesmoke;
+
+
+}

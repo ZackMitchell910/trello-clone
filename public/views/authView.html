@@ -1,3 +1,19 @@
 <!--Code here for your login page-->
+<!--this is what will be displayed for the login, hte ng-submit allwos the user to input and click "enter" rather than the button -->
+<div class = "input">
+	<form ng-submit="login()">
+		<input class="user" type = "text" placeholder = "username" ng-model="username" autofocus>
+		<button class="button">Login</button>
+	</form>
+</div>
 
 
+
+
+
+<!-- <form ng-submit="login()">
+    <input type="text" placeholder="Enter username" ng-model="username" autofocus>
+    <button>Login</button>
+</form>
+
+ -->
